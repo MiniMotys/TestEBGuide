@@ -1,0 +1,74 @@
+EBGUIDE 6.2.0.109176;
+@6f93de57-636e-420d-a9b8-e814934f5dfa
+{
+	#3138344170 "dp_items 1" :: dp(int) : @ae1fb711-c34f-426f-90d2-e13e30e55332
+	{
+		#3493618073 value :: int : 300;
+		#1856288606 name :: string : "CharX";
+		#3707065825 reader_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#4120990591 reader_id :: int : -1;
+		#2897263921 writer_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#1940389662 writer_id :: int : -1;
+		#1582057003 dp_item_mode_member :: dp_item_mode : 0;
+	}
+	#3829985548 "dp_items 2" :: dp(int) : @fff7aa8d-3561-47cb-9809-b905aa04e518
+	{
+		#3493618073 value :: int : 0;
+		#1823490520 name :: string : "CharY";
+		#705292787 reader_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#3183309872 reader_id :: int : -1;
+		#747007729 writer_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#1608039160 writer_id :: int : -1;
+		#3868055201 dp_item_mode_member :: dp_item_mode : 0;
+	}
+	#272704260 "dp_items 3" :: dp(int) : @84f1267e-e21a-4c62-901c-d48283e443b5
+	{
+		#3493618073 value :: int : 10;
+		#80831352 name :: string : "CharWi";
+		#2165424745 reader_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#2236249519 reader_id :: int : -1;
+		#3773345141 writer_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#691417611 writer_id :: int : -1;
+		#1758022307 dp_item_mode_member :: dp_item_mode : 0;
+	}
+	#3820512230 "dp_items 4" :: dp(int) : @edbf2957-c5d5-4aa7-9117-d59636e357a4
+	{
+		#3493618073 value :: int : 10;
+		#2161982171 name :: string : "CharHe";
+		#537225087 reader_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#3797309941 reader_id :: int : -1;
+		#2792948909 writer_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#673628126 writer_id :: int : -1;
+		#1096540577 dp_item_mode_member :: dp_item_mode : 0;
+	}
+	#2504159870 "dp_items 5" :: dp(bool) : @5d200c40-e443-410c-b4dc-e3ab0da817c1
+	{
+		#3493618073 value :: bool : false;
+		#854444024 name :: string : "SpeedBlock";
+		#1030289575 reader_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#45340840 reader_id :: int : -1;
+		#3513808149 writer_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#1785892760 writer_id :: int : -1;
+		#3515232475 dp_item_mode_member :: dp_item_mode : 0;
+	}
+	#3664138712 "dp_items 6" :: dp(bool) : @e658e04b-fb9f-4a83-b0a6-de89560517d1
+	{
+		#3493618073 value :: bool : false;
+		#717379566 name :: string : "BlockDown";
+		#2433116755 reader_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#3423198380 reader_id :: int : -1;
+		#1699327937 writer_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#2140852276 writer_id :: int : -1;
+		#1020387693 dp_item_mode_member :: dp_item_mode : 0;
+	}
+	#2618640682 "dp_items 7" :: dp(intlist) : @c79bf250-a053-4dc2-8593-655396c32fc3
+	{
+		#3493618073 value :: intlist : <int>[];
+		#828665530 name :: string : "ViewSize";
+		#1914323985 reader_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#636232846 reader_id :: int : -1;
+		#1488583829 writer_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#3291368226 writer_id :: int : -1;
+		#1026495849 dp_item_mode_member :: dp_item_mode : 0;
+	}
+}

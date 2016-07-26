@@ -1,0 +1,164 @@
+EBGUIDE 6.2.0.109176;
+@bf2442b8-270c-4966-bed1-cf439544e5b3
+{
+	#3562427296 "templates 1" :: GtfRectangle_template : @53dad660-610c-423f-bd95-8025003cdcc9
+	{
+		#62725243 name :: string : "Char";
+		#1016149357 structure :: GtfRectangle : @4c8c51ba-c4f6-4d52-85b6-a5a0bc36ed49
+		{
+			#3514003583 features :: feature_list : @200a9ed0-8cf4-41ca-9815-ec20d3e01b74
+			{
+			}
+			#3883395381 children :: children_list : @bfd95a33-65f7-4e82-bb09-63394ecb0258
+			{
+				#2473051469 "children_list 4" :: GtfParallelAnimation : @28647933-4c1a-44a1-9605-2639a716b88d
+				{
+					#3514003583 features :: feature_list : @0b5b8fde-d960-40a4-b725-3f6fc3656706
+					{
+					}
+					#412389756 children :: children_list : @0aee19fb-e849-4411-b7b2-8e7d3019754d
+					{
+						#906967528 "children_list 5" :: GtfConstCurveS32 : @621687c9-eb30-46c9-b5d1-239e7aa6c861
+						{
+							#3514003583 features :: feature_list : @67ac30cb-638c-43ab-9dc1-c842071ba9cf
+							{
+							}
+							#4979860 children :: children_list : @295ae524-0231-47a3-9cab-875325d2cd98
+							{
+							}
+							#677316909 name :: string : "Y";
+							#2000518871 enabled :: bool : true;
+							#363292279 delay :: int : 0;
+							#1253773187 duration :: int : 1000;
+							#2400736637 repeat :: int : 0;
+							#387909976 alternating :: bool : false;
+							#2442881522 relative :: bool : false;
+							#2827035424 value :: int_scriptedValue : @206ffc9f-24c7-465d-9d22-f6122bc01ece
+							{
+								#1076004264 triggerList :: trigger_list : @d6bc72b1-ee70-4ef9-ab52-ca956d6ab1fa
+								{
+									#2742057238 events :: event_refs : <objectref>[];
+									#3276576348 dp_items :: dp_item_refs : <objectref>[];
+									#2811272795 properties :: property_reference_list : <propref>[];
+								}
+								#2528235851 onTrigger :: function(bool,bool) : @c822ac56-8ee2-4707-b4d8-ecbdfb02f855
+								{
+									#1202705475 script :: string : "function(v:arg0::bool)\n{\n\t// todo: auto generated return value, please adapt\n\tfalse\n}";
+								}
+								#3252053135 read :: function(int) : @3f310b7e-88d2-40da-bdb0-1a34e7459412
+								{
+									#1202705475 script :: string : "function()\n{\n\tdp:CharY+2\n}";
+								}
+								#3365573352 write :: function(bool,int) : @94d659bb-126c-4258-aa6c-85605be57b98
+								{
+									#1202705475 script :: string : "function(v:arg0::int)\n{\n\t// todo: auto generated return value, please adapt\n\tfalse\n}";
+								}
+							}
+							#520963233 target :: objectref(int) : @fff7aa8d-3561-47cb-9809-b905aa04e518;
+						}
+					}
+					#1269602219 name :: string : "Down";
+					#2505799586 enabled :: bool : true;
+					#3982538849 repeat :: int : 1;
+					#1738338304 alternating :: bool : false;
+					#1324221779 scale :: float : 1.0;
+					#1276956935 onPlay :: function(void,int,bool) : @4962791f-4e1a-438b-9cff-95eb5918d186
+					{
+						#1202705475 script :: string : "function(v:animation_time::int, v:forward::bool)\n{\n\n}";
+					}
+					#2894647371 onPause :: function(void,int) : @253da299-cf96-411e-ac09-a7cf6098ee72
+					{
+						#1202705475 script :: string : "function(v:animation_time::int)\n{\n\n}";
+					}
+					#316469292 onTerminate :: function(void,int,int) : @5f3cb943-07e0-4e96-916d-56dccfe80c0a
+					{
+						#1202705475 script :: string : "function(v:animation_time::int, v:terminate::int)\n{\n\n}";
+					}
+				}
+			}
+			#3731954697 name :: string : "Char";
+			#3211877730 visible :: bool : true;
+			#3798198257 width :: objectref(int) : @84f1267e-e21a-4c62-901c-d48283e443b5;
+			#3765888540 height :: objectref(int) : @edbf2957-c5d5-4aa7-9117-d59636e357a4;
+			#991650626 x :: objectref(int) : @ae1fb711-c34f-426f-90d2-e13e30e55332;
+			#2519919904 y :: objectref(int) : @fff7aa8d-3561-47cb-9809-b905aa04e518;
+			#389483652 fillColor :: color : -16776961;
+			#3792146161 Down :: conditional_script : @fb9bf9de-b724-4b74-ac27-034909dc78de
+			{
+				#1076004264 triggerList :: trigger_list : @0d5843f4-0755-49c9-a41b-84d929bc3bc1
+				{
+					#2742057238 events :: event_refs : <objectref>[];
+					#3081359124 dp_items :: dp_item_refs : <objectref>[];
+					#152548545 properties :: property_reference_list : <propref>[];
+				}
+				#1734902483 onTrigger :: function(bool,bool) : @11f6fd57-bf63-462b-9b0c-bfa4fcff43b0
+				{
+					#1202705475 script :: string : "function(v:arg0::bool)\n{\n\t\n\tf:animation_play(v:this->Down)\n\t\n\ttrue\n}";
+				}
+			}
+			#756771790 StopDown :: conditional_script : @fb8ad8bd-82f8-4a44-a6df-7e0261183b04
+			{
+				#1076004264 triggerList :: trigger_list : @36f9fe11-dd27-4d20-97d4-d253cd205435
+				{
+					#2742057238 events :: event_refs : <objectref>[@cbf1f06c-6c8e-4e31-b571-0ca1765dcb21];
+					#286742513 dp_items :: dp_item_refs : <objectref>[];
+					#3934613231 properties :: property_reference_list : <propref>[];
+				}
+				#2789592092 onTrigger :: function(bool,bool) : @6a5ea83d-4d70-44d8-b309-78f1a2a5713f
+				{
+					#1202705475 script :: string : "function(v:arg0::bool)\n{\nmatch_event v:event = ev:StopDown in\n{\n\t\n\tf:animation_cancel(v:this->Down)\n\tdp:SpeedBlock=false\n}\n\n\t\t\n\n\tfalse\n}";
+				}
+			}
+			#1007467062 StartDown :: conditional_script : @7e78656e-436e-4785-b5ef-568341d44848
+			{
+				#1076004264 triggerList :: trigger_list : @2d4dd1ac-9f52-4e42-b760-d70f813d06cf
+				{
+					#2742057238 events :: event_refs : <objectref>[@0ea769d7-e31a-44c8-aec4-16af5ff6e474];
+					#4150039943 dp_items :: dp_item_refs : <objectref>[];
+					#2039215465 properties :: property_reference_list : <propref>[];
+				}
+				#2082484577 onTrigger :: function(bool,bool) : @ed92b8eb-6a7b-48ca-9ca4-e17bdc6295e0
+				{
+					#1202705475 script :: string : "function(v:arg0::bool)\n{\n\tmatch_event v:event = ev:StartDown in\n{\n\tif(dp:SpeedBlock==false && dp:BlockDown==false){\n\t\tf:animation_play(v:this->Down)\n\t\tdp:SpeedBlock=true\n\t}\n\n}\n\n\t\n\ttrue\n}";
+				}
+			}
+		}
+	}
+	#501173154 "templates 2" :: GtfRectangle_template : @af896e2c-6924-40f4-8f18-b65c05aed403
+	{
+		#62725243 name :: string : "Platform";
+		#3863831398 structure :: GtfRectangle : @fd403ce4-7d25-46cc-ad0a-879b6a5bbf8a
+		{
+			#3514003583 features :: feature_list : @40116cfd-65ce-432c-8d55-e54156760a51
+			{
+			}
+			#459056103 children :: children_list : @a091c8fa-e733-4db3-9555-24ed31ed5f78
+			{
+			}
+			#2985887317 name :: string : "Platform";
+			#36212999 visible :: bool : true;
+			#2620309929 width :: propref(int) : @af896e2c-6924-40f4-8f18-b65c05aed403#4169235855;
+			#460655001 height :: propref(int) : @af896e2c-6924-40f4-8f18-b65c05aed403#1729765146;
+			#3717499668 x :: propref(int) : @af896e2c-6924-40f4-8f18-b65c05aed403#571663248;
+			#847945949 y :: propref(int) : @af896e2c-6924-40f4-8f18-b65c05aed403#2917600688;
+			#627921692 fillColor :: color : -1;
+			#128369958 StopDown :: conditional_script : @7fed1efe-7911-4475-8fef-72849f617acd
+			{
+				#1076004264 triggerList :: trigger_list : @509fc99d-c788-4518-b52c-3b2f085b0b03
+				{
+					#2742057238 events :: event_refs : <objectref>[];
+					#122709569 dp_items :: dp_item_refs : <objectref>[@ae1fb711-c34f-426f-90d2-e13e30e55332, @fff7aa8d-3561-47cb-9809-b905aa04e518];
+					#497909069 properties :: property_reference_list : <propref>[];
+				}
+				#1586537882 onTrigger :: function(bool,bool) : @27d65497-7d51-4b16-95d3-828e87bd1834
+				{
+					#1202705475 script :: string : "function(v:arg0::bool)\n{\n\t\n\t\n\tif(dp:CharY + dp:CharHe >= v:this.y  &&\n\t\tdp:CharY + dp:CharHe <= v:this.y+v:this.height &&\n\t\t(dp:CharX >= v:this.x ||\n\t\tdp:CharX+dp:CharWi <= v:this.x + v:this.width)\t\t) {\n\t\tfire ev:StopDown()\n\t\t\n\t\t}\n\t\n\t\n if (dp:CharY + dp:CharHe >= v:this.y  &&\n\t\t\tdp:CharY + dp:CharHe <= v:this.y+v:this.height &&\t\n\t\t(dp:CharX+dp:CharWi < v:this.x\t ||\n\t\tdp:CharX > v:this.x + v:this.width)\t)\n\t{\n\t\tfire ev:StartDown()\n\t\t\t\n\t}\n\t\n\t\n\n\tfalse\n}";
+				}
+			}
+		}
+		#4169235855 width :: int : 300;
+		#1729765146 height :: int : 5;
+		#571663248 x :: int : 0;
+		#2917600688 y :: int : 0;
+	}
+}

@@ -1,0 +1,107 @@
+EBGUIDE 6.2.0.109176;
+@0f7e8b05-bde2-4cfe-854f-d733b7edd569
+{
+	#62725243 name :: string : "Simulation";
+	#3580859854 isDefault :: bool : true;
+	#2224470737 scene_configurations :: scene_configurations : @d58f0982-1b99-4383-b86b-ecdfb692b741
+	{
+		#952579756 "Scene configurations 1" :: scene_configuration : @6ffa3b76-4643-4d01-8484-89fe333edbb5
+		{
+			#1340338390 context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+			#62960113 statemachine :: objectref(haptic_statemachine) : @9f8b04cf-4113-453b-9192-518716121dbc;
+			#2495845642 enabled :: bool : true;
+			#2899832063 scene :: GtfVisualScene : @97b2a91e-7e7d-4b64-b361-45b63a169c76
+			{
+				#3514003583 features :: feature_list : @3fe2d6f1-470b-48b0-b65f-359b9c18f131
+				{
+					#962787150 "feature_list 1" :: DirectXRenderer : @8086ffd2-f361-456b-8d93-eb46936217f5
+					{
+					}
+				}
+				#3856148177 children :: children_list : @701bf340-db51-47b4-8dc6-2bae0ad0f928
+				{
+				}
+				#2616685437 name :: string : "";
+				#1752764322 visible :: bool : true;
+				#739435725 width :: int : 800;
+				#2579838086 height :: int : 480;
+				#2683251896 x :: int : 0;
+				#1259447529 y :: int : 0;
+				#2448643697 projectName :: string : "project";
+				#1743382327 windowCaption :: string : "EB GUIDE 6 model";
+				#1463104485 sceneId :: int : 0;
+				#3139810104 maxFPS :: int : 60;
+				#167596140 hwLayerId :: int : 0;
+				#415321242 colorMode :: int : 1;
+				#1947212912 multisampling :: int : 0;
+				#2394536920 enableRemoteFramebuffer :: bool : false;
+				#2959876415 showWindowFrame :: bool : true;
+				#2643929091 showWindow :: bool : true;
+				#2064226825 disableVSync :: bool : false;
+				#1063341908 showFPS :: int : 0;
+			}
+		}
+	}
+	#3155291907 message_configurations :: message_configurations : @ad4f0d42-57e8-42db-85aa-4a17abf1651a
+	{
+		#3152441243 "Message configurations 1" :: message_configuration : @bd758316-4625-458d-8b72-caea672ef7db
+		{
+			#633347440 runlevel :: int : 0;
+			#2635757008 message_identifier :: int : 300;
+			#2439079332 parameters :: string : "UINT32 3735928495 ";
+			#673448162 comment :: string : "";
+		}
+		#2007638487 "Message configurations 2" :: message_configuration : @1e474cc6-3524-4b55-8d1d-e88db8aa4072
+		{
+			#633347440 runlevel :: int : 0;
+			#3968824653 message_identifier :: int : 305;
+			#2323098274 parameters :: string : "UINT16 60000 ";
+			#251248233 comment :: string : "";
+		}
+		#1828666331 "Message configurations 3" :: message_configuration : @c69b7e33-8b78-4f2f-90ef-b24506ad7ea4
+		{
+			#633347440 runlevel :: int : 0;
+			#3370424799 message_identifier :: int : 317;
+			#2536184146 parameters :: string : "MODEL_PATH types.bin ";
+			#3543994302 comment :: string : "";
+		}
+		#1717177869 "Message configurations 4" :: message_configuration : @475509e1-1491-4125-a38b-678b26ad2625
+		{
+			#633347440 runlevel :: int : 403;
+			#3837722867 message_identifier :: int : 450;
+			#2333298852 parameters :: string : "UINT32 3735928495 MODEL_PATH views.bin ";
+			#3114421926 comment :: string : "";
+		}
+		#2547376763 "Message configurations 5" :: message_configuration : @18d89691-e55f-463e-9858-1fc6e6af2e29
+		{
+			#633347440 runlevel :: int : 499;
+			#457988123 message_identifier :: int : 311;
+			#3412139684 parameters :: string : "UINT32 3735928495 MODEL_PATH model.bin ";
+			#1960669161 comment :: string : "";
+		}
+		#3424676456 "Message configurations 6" :: message_configuration : @3ff45e41-d937-4816-a4ae-76ca980afcb5
+		{
+			#633347440 runlevel :: int : 499;
+			#3118205490 message_identifier :: int : 312;
+			#2888221434 parameters :: string : "UINT32 3735928495 MODEL_PATH resources.bin ";
+			#4136727640 comment :: string : "";
+		}
+		#3601630851 "Message configurations 7" :: message_configuration : @983177e9-36d6-41b9-abaa-c5aed3368373
+		{
+			#633347440 runlevel :: int : 499;
+			#3241874313 message_identifier :: int : 308;
+			#2300267172 parameters :: string : "UINT32 3735928495 MODEL_PATH datapool.bdf ";
+			#139696928 comment :: string : "";
+		}
+		#3592132850 "Message configurations 8" :: message_configuration : @5d3812cb-b1e7-43ba-8dab-fe2e64ed296f
+		{
+			#633347440 runlevel :: int : 499;
+			#3066581289 message_identifier :: int : 309;
+			#3393710536 parameters :: string : "UINT32 3735928495 MODEL_PATH datapool.bvf ";
+			#179025255 comment :: string : "";
+		}
+	}
+	#3395298257 library_configurations :: library_configurations : @5a8b6913-03e9-400e-8983-9889fca4a158
+	{
+	}
+}
