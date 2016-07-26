@@ -259,6 +259,79 @@ EBGUIDE 6.2.0.109176;
 				#1202705475 script :: string : "function(v:animation_time::int, v:terminate::int)\n{\n\tdp:BlockDown=false\n\tfire ev:StartDown()\n\n\t\n}";
 			}
 		}
+		#1584333310 "children_list 5" :: GtfLabel : @2b8d10db-c92a-46aa-bccf-68c7af720dde
+		{
+			#3514003583 features :: feature_list : @6f1876dc-b8b9-4932-90f5-6f2914df4f55
+			{
+			}
+			#3503996031 children :: children_list : @227341ab-d41c-4008-a627-34879eb9af78
+			{
+			}
+			#3816507329 name :: string : "Label 1";
+			#1513592739 visible :: bool : true;
+			#2494154529 width :: int : 100;
+			#1320991801 height :: int : 100;
+			#1677431524 x :: int : 416;
+			#1374709656 y :: int : 123;
+			#916398510 text :: string : "label";
+			#887332431 textColor :: color : -1;
+			#1581601180 font :: font_resource : @b11a2303-26e5-4144-8a1a-c8e3047228a9
+			{
+				#1629333464 file :: file : "PT_Sans_Narrow.ttf";
+				#1782790121 size :: int : 30;
+			}
+			#1964659397 horizontalAlign :: int : 0;
+			#1449391344 verticalAlign :: int : 0;
+		}
+		#1257953215 "children_list 6" :: GtfInstantiator : @eab4aa42-2c69-478c-82ef-743986213d03
+		{
+			#3514003583 features :: feature_list : @5bfd26db-fbb6-4f1d-8c20-aca451bd1232
+			{
+			}
+			#3722546771 children :: children_list : @44715cf2-515c-4521-ac00-884f621b58c8
+			{
+			}
+			#511977877 name :: string : "Instantiator 1";
+			#4002968955 visible :: bool : true;
+			#2142135617 width :: int : 100;
+			#2843863530 height :: int : 100;
+			#3103833160 x :: int : 536;
+			#4024833758 y :: int : 78;
+			#2968625036 numItems :: int : 0;
+			#2315968539 lineMapping :: intlist : <int>[];
+		}
+		#964097345 "children_list 10" :: GtfRectangle : @149adc6f-6d2b-4f2b-a20c-fcac81e0068f
+		{
+			#3514003583 features :: feature_list : @3a4bb7db-2d05-4666-a233-bba9a78da824
+			{
+			}
+			#498316367 children :: children_list : @4a74fc4e-ec7c-4cb6-a321-516b363b5782
+			{
+			}
+			#1418704315 name :: string : "Rectangle 1";
+			#3726400134 visible :: bool : true;
+			#3353320465 width :: int : 100;
+			#1835564210 height :: int : 100;
+			#988391342 x :: int : 176;
+			#2688705790 y :: int : 155;
+			#550054668 fillColor :: color : -1448498689;
+		}
+		#4209118396 "children_list 11" :: GtfRectangle : @e357bf0a-af3a-4118-828b-f7a75ea20d6a
+		{
+			#3514003583 features :: feature_list : @d88c2a1f-f567-4436-8276-dfd2a69608c7
+			{
+			}
+			#2985673925 children :: children_list : @aba5cb1e-5d90-445f-b37a-b7e4b025a82e
+			{
+			}
+			#3984195017 name :: string : "Rectangle 2";
+			#131492703 visible :: bool : true;
+			#2536772597 width :: int : 100;
+			#895335129 height :: int : 100;
+			#811954740 x :: int : 232;
+			#1376089807 y :: int : 227;
+			#3136109676 fillColor :: color : -1448498689;
+		}
 	}
 	#1891984649 name :: string : "View 1";
 	#3972786420 visible :: bool : true;
