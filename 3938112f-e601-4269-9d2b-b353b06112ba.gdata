@@ -259,6 +259,30 @@ EBGUIDE 6.2.0.109176;
 				#1202705475 script :: string : "function(v:animation_time::int, v:terminate::int)\n{\n\tdp:BlockDown=false\n\tfire ev:StartDown()\n\n\t\n}";
 			}
 		}
+		#1643546115 "children_list 5" :: GtfLabel : @819c162e-d2aa-4420-9f97-376975098f63
+		{
+			#3514003583 features :: feature_list : @72193774-e7ac-40bc-9e2b-7c9e1f4ccd1c
+			{
+			}
+			#39297802 children :: children_list : @fa6984fd-66da-47c3-9416-4b7884ba15c6
+			{
+			}
+			#3410965639 name :: string : "Label 1";
+			#2740753365 visible :: bool : true;
+			#1913311869 width :: int : 100;
+			#2142255391 height :: int : 100;
+			#2980830602 x :: int : 300;
+			#4198070875 y :: int : 227;
+			#3360319022 text :: string : "label";
+			#2906256477 textColor :: color : -1;
+			#373641088 font :: font_resource : @458823f1-a581-45ef-a517-9d36ede142c9
+			{
+				#1629333464 file :: file : "PT_Sans_Narrow.ttf";
+				#1018933158 size :: int : 30;
+			}
+			#2423789369 horizontalAlign :: int : 0;
+			#1137295268 verticalAlign :: int : 0;
+		}
 	}
 	#1891984649 name :: string : "View 1";
 	#3972786420 visible :: bool : true;

@@ -71,4 +71,28 @@ EBGUIDE 6.2.0.109176;
 		#3291368226 writer_id :: int : -1;
 		#1026495849 dp_item_mode_member :: dp_item_mode : 0;
 	}
+	#211021980 "dp_items 8" :: dp(font) : @d6c101c7-6147-49c6-8dcd-a2b4f0ddfba2
+	{
+		#3493618073 value :: font_resource : @43c92284-affd-45ef-8fd2-cfaeda45476c
+		{
+			#1629333464 file :: file : "PT_Sans_Narrow.ttf";
+			#1403156772 size :: int : 30;
+		}
+		#1058799713 name :: string : "Font 1";
+		#759832577 reader_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#3107037308 reader_id :: int : -1;
+		#2217596289 writer_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#2169226665 writer_id :: int : -1;
+		#670432951 dp_item_mode_member :: dp_item_mode : 0;
+	}
+	#817327178 "dp_items 9" :: dp(bool) : @db506aa2-5a64-4155-adfc-5dde9abdf128
+	{
+		#3493618073 value :: bool : true;
+		#839769624 name :: string : "Boolean 1";
+		#1258539935 reader_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#4232485760 reader_id :: int : -1;
+		#1839077317 writer_context :: objectref(context) : @d4e0d83f-380a-44a3-8e36-4b2c785698ea;
+		#3717105637 writer_id :: int : -1;
+		#3657790921 dp_item_mode_member :: dp_item_mode : 0;
+	}
 }
